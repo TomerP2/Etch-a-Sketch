@@ -18,6 +18,7 @@ html {
     width: 100vw;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 #reset {
@@ -34,7 +35,12 @@ html {
     font-size: 20px;
 }
 
-.activated {
-    /* Grid boxes get this class if user hovered over them */
-    background-color: grey;
+#reset:hover {
+    cursor: pointer;
 }
+
+
+/* .activated { */
+
+
+/* Grid boxes get this class if user hovered over them */
