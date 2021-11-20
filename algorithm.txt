@@ -1,0 +1,17 @@
+Project:
+	- Create an Etch-a-sketch webpage.
+		- The webpage will be created with a default 16x16 grid.
+		- The user will be able to draw by hovering with their mouse over gridboxes
+		- There will be a 'reset' button on the top of the page.
+		- If clicked, the reset button will activate a prompt asking the user what size 			 grid they would like
+		- A new grid is created according to the user specifications
+		
+Functions:
+	Function createGrid(length):
+		Creates a grid of elements with the specified width/height (variable length).
+		
+		input:
+			- length: an int with as value 0 - 100
+		output:
+			- A square grid of DOM elements with width/height of x
+		

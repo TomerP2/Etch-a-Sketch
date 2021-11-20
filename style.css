@@ -1,0 +1,21 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#main-container {
+    /* The 'grid' container */
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.activated {
+    /* Grid boxes get this class if user hovered over them */
+    background-color: grey;
+}
